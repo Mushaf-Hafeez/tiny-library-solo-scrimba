@@ -13,8 +13,9 @@ const Navbar = () => {
         <Image
           src={"/logo.png"}
           alt="error rendering the logo"
-          height={"100"}
-          width={"100"}
+          height={"200"}
+          width={"200"}
+          className="size-25"
         ></Image>
       </Link>
 
