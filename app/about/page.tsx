@@ -80,6 +80,15 @@ const page = () => {
           </p>
         </div>
       </section>
+
+      <center>
+        <Image
+          src={"/logo.png"}
+          alt="Error rendering the logo"
+          height={200}
+          width={200}
+        />
+      </center>
     </main>
   );
 };
