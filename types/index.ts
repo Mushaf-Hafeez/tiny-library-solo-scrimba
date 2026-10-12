@@ -10,3 +10,7 @@ export interface AboutCardProps {
   heading: string;
   text: string;
 }
+
+export interface LineProps {
+  className?: string;
+}

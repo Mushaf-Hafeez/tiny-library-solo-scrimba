@@ -34,6 +34,7 @@ const page = () => {
         </div>
       </section>
 
+      {/* cards section */}
       <section className="border border-zinc-300 px-40 py-10 flex items-center justify-between">
         <AboutCard
           icon="/icons/stack.png"
@@ -52,6 +53,28 @@ const page = () => {
           heading="Readers first"
           text="Every part of Tiny Library is designed to help you spend less time searching and more time reading."
         />
+      </section>
+
+      {/* details section */}
+      <section className="py-10">
+        <div className="max-w-lg mx-auto  flex flex-col">
+          <h1 className="text-5xl font-bold mb-4">Our ethos</h1>
+          <p className="text-lg">
+            At Tiny Library, we believe a good book shouldn’t be hard to find.
+            Our ethos is to create a small, carefully curated space
+            where every title earns its place on
+            the shelf and readers can trust that anything they pick up is
+            worth their time.
+          </p>
+          <Line className="rotate-90 ms-15" />
+          <p className="text-lg">
+            Instead of overwhelming you with thousands of options, Tiny Library
+            focuses on a modest collection that feels personal and approachable.
+            We want readers to feel like they’ve stepped into a cosy,
+            well‑loved library where someone has already done
+            the hard work of sorting through the noise.
+          </p>
+        </div>
       </section>
     </main>
   );
