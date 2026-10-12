@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Lato, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
+import Navbar from "@/components/Navbar";
+
 const lato = Lato({
   variable: "--font-lato",
   subsets: ["latin"],
@@ -29,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${nunitoSans.className} ${lato.variable} antialiased`}>
+        <Navbar />
         {children}
       </body>
     </html>
