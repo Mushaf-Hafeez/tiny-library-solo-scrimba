@@ -29,7 +29,7 @@ const page = () => {
           </p>
 
           <div className="flex items-center justify-center">
-            <Button href="/contact">contact us</Button>
+            <Button href="/about/contact">contact us</Button>
           </div>
         </div>
       </section>

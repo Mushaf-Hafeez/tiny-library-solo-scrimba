@@ -31,9 +31,9 @@ const Navbar = () => {
         <li>
           <Link
             href={"/about"}
-            className={`text-sm pb-2 ${pathname === "/about" && "text-orange-400 border-b border-orange-400"}`}
+            className={`text-sm pb-2 ${pathname.startsWith("/about") && "text-orange-400 border-b border-orange-400"}`}
           >
-            ABOUT
+            {pathname === "/about/contact" ? "ABOUT : CONTACT" : "ABOUT"}
           </Link>
         </li>
       </ul>
