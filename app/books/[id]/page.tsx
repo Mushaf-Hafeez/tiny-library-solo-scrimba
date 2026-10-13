@@ -2,7 +2,6 @@ import { getBookById } from "@/utils/books";
 import Image from "next/image";
 import React from "react";
 import moment from "moment";
-import Link from "next/link";
 import Button from "@/components/Button";
 
 const page = async ({ params }: { params: { id: string } }) => {
@@ -20,7 +19,7 @@ const page = async ({ params }: { params: { id: string } }) => {
   }
 
   return (
-    <main>
+    <main className="h-full w-full">
       <div className="px-40 py-10 flex items-center gap-20">
         <div>
           <Image

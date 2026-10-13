@@ -28,3 +28,7 @@ export interface Book {
 export interface BookCardProps {
   book: Book;
 }
+
+export interface BookLayoutProps {
+  children: ReactNode;
+}
