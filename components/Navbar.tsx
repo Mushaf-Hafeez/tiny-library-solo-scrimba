@@ -8,7 +8,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <header className="px-40 mx-auto w-full flex  items-center justify-between">
+    <header className="px-40 mx-auto w-full flex items-center justify-between">
       <Link href={"/"}>
         <Image
           src={"/logo.png"}
