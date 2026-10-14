@@ -1,7 +1,5 @@
 import Form from "next/form";
-import type { Book } from "@/types";
 import { getBooks } from "@/utils/books";
-import BookCard from "@/components/BookCard";
 import BooksGrid from "@/components/BooksGrid";
 
 type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>;
