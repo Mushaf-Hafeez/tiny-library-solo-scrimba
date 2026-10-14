@@ -23,7 +23,7 @@ const Navbar = () => {
         <li>
           <Link
             href={"/books"}
-            className={`text-sm pb-2 ${pathname === "/books" && "text-orange-400 border-b border-orange-400"}`}
+            className={`text-sm pb-2 ${pathname.startsWith("/books") && "text-orange-400 border-b border-orange-400"}`}
           >
             BOOKS
           </Link>

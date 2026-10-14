@@ -1,11 +1,9 @@
 import Form from "next/form";
-import type { Book } from "@/types";
 import { getBooks } from "@/utils/books";
-import BookCard from "@/components/BookCard";
+import BooksGrid from "@/components/BooksGrid";
 
 type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>;
 
-// 2. Strongly type the page props
 type PageProps = {
   searchParams: SearchParams;
 };
@@ -33,11 +31,7 @@ const page = async ({ searchParams }: PageProps) => {
             />
           </Form>
         </div>
-        <div className="grid grid-cols-4 gap-6">
-          {books.map((book: Book) => (
-            <BookCard key={book.id} book={book} />
-          ))}
-        </div>
+        <BooksGrid books={books} />
       </div>
     </main>
   );

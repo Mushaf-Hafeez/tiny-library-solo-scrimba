@@ -1,14 +1,14 @@
 {
   "categories": [
-    "ALL",
-    "FICTION",
-    "NON-FICTION",
-    "ROMANCE",
-    "FANTASY",
-    "THRILLER",
-    "HORROR",
-    "HISTORICAL",
-    "BIOGRAPHY",
-    "SELF-HELP"
+    "all",
+    "fiction",
+    "non-fiction",
+    "romance",
+    "fantasy",
+    "thriller",
+    "horror",
+    "historical",
+    "biography",
+    "self-help"
   ]
 }

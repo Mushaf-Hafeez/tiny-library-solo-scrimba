@@ -32,3 +32,7 @@ export interface BookCardProps {
 export interface BookLayoutProps {
   children: ReactNode;
 }
+
+export interface BooksGridProps {
+  books: Book[];
+}

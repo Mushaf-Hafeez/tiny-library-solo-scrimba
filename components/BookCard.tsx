@@ -2,8 +2,6 @@ import { BookCardProps } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
 
-// Todo: add the click and navigateo single book page
-
 const BookCard = ({ book }: BookCardProps) => {
   return (
     <Link
